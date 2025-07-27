@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 
-The **ProDev Backend Engineering Program** has been a transformative experience in my journey to becoming a skilled backend developer. This documentation chronicles my weekly progress, challenges, and key takeaways.
+The **ProDev Backend Engineering Program** has been a transformative experience in my journey to becoming a skilled backend developer. Over the course of the program, I have gained hands-on experience with modern backend tools and technologies, tackled real-world challenges, and collaborated with peers on practical projects.
 
 ---
 
@@ -35,8 +35,106 @@ The **ProDev Backend Engineering Program** has been a transformative experience 
 ### Week 0
 
 ### 🎯 Program Onboarding & Vision Setting
-
+### 🎯 Week 0: Program Onboarding & Vision Setting
 **Foundation Building Activities:**
+
+- **Comprehensive Skills Assessment**  
+  Evaluated 25+ backend engineering competencies with progress tracking:
+
+  ```mermaid
+  pie title Technical Skills Baseline (Pre-Program)
+      "Python/Django" : 4
+      "RDBMS/PostgreSQL" : 3
+      "REST API Design" : 2
+      "System Architecture" : 2
+      "CI/CD Pipelines" : 1
+      "Containerization" : 1
+      "Shell Scripting" : 3
+  ```
+
+## 🚀 DevOps & Infrastructure Vision
+
+My expanded technical vision includes mastering these core infrastructure competencies:
+
+- **🏗 Jenkins CI/CD Pipelines**  
+  Build robust automation pipelines with:  
+  ✓ Multi-stage builds  
+  ✓ Parallel test execution  
+  ✓ Blue-green deployment strategies  
+
+- **🔀 GitFlow Branching**  
+  Implement enterprise-grade version control:  
+  ✓ Feature branch workflows  
+  ✓ Semantic versioning  
+  ✓ Automated changelog generation  
+
+- **🐳 Docker Containerization**  
+  Master container workflows:  
+  ✓ Multi-stage builds  
+  ✓ Volume management  
+  ✓ Docker Compose networking  
+
+- **☸️ Kubernetes Orchestration**  
+  Deploy production-grade clusters:  
+  ✓ Pod scaling strategies  
+  ✓ ConfigMaps & Secrets  
+  ✓ Horizontal Pod Autoscaler  
+
+- **📜 Bash Automation**  
+  Develop maintainable scripts for:  
+  ✓ Environment provisioning  
+  ✓ Log rotation  
+  ✓ Deployment automation
+
+### 🗺️ Technical Learning Roadmap
+
+```mermaid
+    gantt
+    title Backend Engineering Learning Path
+    dateFormat  YYYY-MM-DD
+    axisFormat %U (Week %U)
+    
+    section Phase 1: Core Foundations
+    Django ORM Mastery          :a1, 2025-01-01, 21d
+    REST API Security           :a2, after a1, 14d
+    Bash Automation Scripts     :a3, after a2, 7d
+    
+    section Phase 2: DevOps Integration
+    Docker Containerization     :b1, 2025-02-01, 14d
+    Jenkins Pipeline Creation   :b2, after b1, 14d
+    GitFlow Implementation      :b3, after b2, 7d
+    
+    section Phase 3: Production Readiness
+    Kubernetes Orchestration    :c1, 2025-03-01, 21d
+    Infrastructure as Code      :c2, after c1, 14d
+    Blue-Green Deployments      :c3, after c2, 7d
+```
+
+### Version Control Strategy
+
+Adopted GitFlow workflow:
+
+```mermaid
+gitGraph
+    commit
+    branch develop
+    checkout develop
+    commit
+    branch feature/api-endpoints
+    commit
+    commit
+    checkout develop
+    merge feature/api-endpoints
+    branch release/v1.0
+    commit
+    checkout main
+    merge release/v1.0
+    branch hotfix/login-bug
+    commit
+    checkout main
+    merge hotfix/login-bug
+```
+<!-- **Foundation Building Activities:**
 
 - **Skills Assessment**  
   Conducted comprehensive self-evaluation across 15+ backend competencies:
@@ -47,7 +145,7 @@ The **ProDev Backend Engineering Program** has been a transformative experience 
       "Database Knowledge" : 3
       "API Design" : 2
       "System Architecture" : 2
-  ```
+  ``` -->
 
 ### Week 1
 
