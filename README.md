@@ -34,21 +34,107 @@ The **ProDev Backend Engineering Program** has been a transformative experience 
 
 ### Week 0
 
-#### 🗓 Pledge, Backend Blueprint, Setting Goals
+### 🎯 Program Onboarding & Vision Setting
 
-- Took commitment pledge
-- Mapped learning path using Backend Blueprint
-- Defined SMART goals for the program
+**Foundation Building Activities:**
+
+- **Skills Assessment**  
+  Conducted comprehensive self-evaluation across 15+ backend competencies:
+
+  ```mermaid
+  pie title Technical Skills Baseline
+      "Python Proficiency" : 4
+      "Database Knowledge" : 3
+      "API Design" : 2
+      "System Architecture" : 2
+  ```
 
 ### Week 1
 
-#### 🧠 AI Prompting & Data Foundations
+### 🌱 Foundations of Backend Engineering
 
-- [AI prompting fundamentals](https://example.com)
-- Personal branding (GitHub/LinkedIn)
-- Data modeling and ERDs
-- Requirement analysis techniques
+**Core Concepts Explored:**
 
+- **AI Fundamentals**
+  - Mastered machine learning paradigms:
+  
+    ```mermaid
+    graph LR
+    A[Supervised Learning] --> B[Labeled Data]
+    C[Unsupervised Learning] --> D[Pattern Discovery]
+    E[Reinforcement Learning] --> F[Reward Feedback]
+    ```
+
+  - Applied AI concepts to problem-solving frameworks
+
+- **Personal Branding**
+  - Established professional presence:
+    - GitHub: AbuArwa001/alx-project-nexus
+    - LinkedIn: Optimized profile with #ALX_SE
+    - Technical blog: Published first post on ER diagrams
+
+- **Database Design**
+  - Created comprehensive ER diagrams:
+  
+    ```mermaid
+    erDiagram
+        USER ||--o{ BOOKING : makes
+        BOOKING ||--|{ PAYMENT : contains
+        USER {
+            int id PK
+            string name
+            string email
+        }
+    ```
+
+  - Normalized database schema to 3NF:
+    - Eliminated transitive dependencies
+    - Established proper foreign key relationships
+
+- **Requirement Analysis**
+  - Developed user stories:
+
+    ```markdown
+    ### User Story: Booking System
+    As a traveler,
+    I want to view available properties,
+    So I can plan my accommodation
+    ```
+
+  - Defined API specifications:
+  
+    ```yaml
+    /api/properties:
+      get:
+        summary: List available properties
+        parameters:
+          - name: location
+            in: query
+            schema:
+              type: string
+    ```
+
+**Key Deliverables:**
+
+- AI concept mapping document
+- Professional social media profiles
+- Database design documentation
+- Requirements specification sheet
+
+**Tools & Resources:**
+
+- Diagramming: Lucidchart, Draw.io
+- Documentation: Swagger, Markdown
+- Version Control: Git/GitHub
+- Collaboration: Discord #ProDevProjectNexus
+
+**Outcomes:**
+
+- Built foundation for backend development
+- Established online professional presence
+- Created scalable database architecture
+- Defined clear project requirements
+  
 ### Week 2
 
 ### 🗃️ Database Mastery & Project Foundations\
